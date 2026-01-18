@@ -1,0 +1,30 @@
+# 依赖目录
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 只忽略 yarn 的锁文件（我们使用 npm）
+yarn.lock
+
+# Hexo 生成的文件
+.deploy*/
+public/
+db.json
+
+# 临时文件
+*.log
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 主题的 node_modules（如果主题有单独的依赖）
+themes/*/node_modules/
